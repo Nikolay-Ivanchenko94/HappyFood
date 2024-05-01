@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.logins.ResetFragment">
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       
+       
+       <Button
+           android:layout_width="44dp"
+           android:layout_height="44dp"
+           android:id="@+id/btnBack"
+           android:layout_marginStart="20dp"
+           android:layout_marginTop="35dp"
+           android:layout_marginEnd="3dp"
+           android:layout_marginBottom="3dp"
+           android:background="@drawable/arrowleft"
+           android:contentDescription="Back"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintHorizontal_bias="0.0"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintVertical_bias="0.0"
+           tools:ignore="HardcodedText,MissingConstraints" />
+       />
+
+
+
+
+       <Button
+           android:layout_width="69dp"
+           android:layout_height="48dp"
+           android:id="@+id/btnSkip"
+           android:text="Skip"
+           android:textColor="@color/black"
+           android:background="?android:attr/selectableItemBackground"
+           android:layout_marginEnd="3dp"
+           android:layout_marginBottom="3dp"
+           app:layout_constraintVertical_bias="0.0"
+           app:layout_constraintHorizontal_bias="0.0"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           android:layout_marginTop="30dp"
+           android:layout_marginStart="340dp"
+           tools:ignore="HardcodedText,MissingConstraints" />
+
+
+       <TextView
+           android:layout_width="193dp"
+           android:layout_height="48dp"
+           android:id="@+id/tvSignIn"
+           android:text="Reset Password"
+           android:textSize="24sp"
+           android:textColor="@drawable/background_purple"
+           android:layout_marginEnd="3dp"
+           android:layout_marginBottom="3dp"
+           app:layout_constraintVertical_bias="0.0"
+           app:layout_constraintHorizontal_bias="0.0"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           android:layout_marginTop="150dp"
+           android:layout_marginStart="120dp"
+           tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
+
+
+       <TextView
+           android:layout_width="396dp"
+           android:layout_height="46dp"
+           android:id="@+id/tvText"
+           android:text="At least characters with uppercase and lowercase letters"
+           android:textSize="20sp"
+           android:layout_marginEnd="3dp"
+           android:layout_marginBottom="3dp"
+           app:layout_constraintVertical_bias="0.0"
+           app:layout_constraintHorizontal_bias="0.0"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           android:layout_marginTop="200dp"
+           android:layout_marginStart="25dp"
+           tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
+
+
+       <ImageView
+           android:layout_width="396dp"
+           android:layout_height="60dp"
+           android:id="@+id/ivNewPsw"
+           android:background="@drawable/background"
+           android:layout_marginEnd="3dp"
+           android:layout_marginBottom="3dp"
+           app:layout_constraintVertical_bias="0.0"
+           app:layout_constraintHorizontal_bias="0.0"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           android:layout_marginTop="396dp"
+           android:layout_marginStart="10dp"
+           tools:ignore="ContentDescription,MissingConstraints" />
+       
+       
+       <EditText
+           android:layout_width="290dp"
+           android:layout_height="48dp"
+           android:id="@+id/evNewPsw"
+           android:hint="@string/evNewPsw"
+           android:textSize="20sp"
+           android:background="@null"
+           android:layout_marginBottom="3dp"
+           app:layout_constraintVertical_bias="0.0"
+           app:layout_constraintHorizontal_bias="0.0"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           android:layout_marginTop="400dp"
+           android:layout_marginStart="60dp"
+           tools:ignore="Autofill,HardcodedText,LabelFor,MissingConstraints,TextFields" />
+
+       <ImageView
+           android:layout_width="396dp"
+           android:layout_height="60dp"
+           android:id="@+id/ivConPsw"
+           android:background="@drawable/background"
+           android:layout_marginEnd="3dp"
+           android:layout_marginBottom="3dp"
+           app:layout_constraintVertical_bias="0.0"
+           app:layout_constraintHorizontal_bias="0.0"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           android:layout_marginTop="486dp"
+           android:layout_marginStart="10dp"
+           tools:ignore="ContentDescription,MissingConstraints" />
+
+       <EditText
+           android:layout_width="290dp"
+           android:layout_height="48dp"
+           android:id="@+id/evConPsw"
+           android:hint="@string/evConPsw"
+           android:textSize="20sp"
+           android:background="@null"
+           android:layout_marginBottom="3dp"
+           app:layout_constraintVertical_bias="0.0"
+           app:layout_constraintHorizontal_bias="0.0"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           android:layout_marginTop="495dp"
+           android:layout_marginStart="60dp"
+           tools:ignore="Autofill,HardcodedText,LabelFor,MissingConstraints,TextFields" />
+
+
+       <Button
+           android:layout_width="396dp"
+           android:layout_height="63dp"
+           android:id="@+id/btnVerify"
+           android:background="@drawable/background_purple"
+           android:text="Verify"
+           android:textSize="18sp"
+           android:textColor="@color/white"
+           android:layout_marginBottom="3dp"
+           app:layout_constraintVertical_bias="0.0"
+           app:layout_constraintHorizontal_bias="0.0"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           android:layout_marginTop="565dp"
+           android:layout_marginStart="5dp"
+           tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
+       
+       
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

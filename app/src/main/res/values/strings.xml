@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HappyFood</string>
+    <string name="evEmail">E-mail</string>
+    <string name="evPsw">Password</string>
+    <string name="evName">Name</string>
+    <string name="evCall">Mobile Phone</string>
+    <string name="evForgot">E-mail ID / Mobile phone</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="evNewPsw">New Password</string>
+    <string name="evConPsw">Confirm Password</string>
+    <string name="evNameOr">Name or Mood</string>
+</resources>

@@ -1,0 +1,1528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.screen.GroceriesFragment">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btnLeft"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/left"
+            android:contentDescription="Button Left"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,RedundantDescriptionCheck" />
+
+
+        <TextView
+            android:id="@+id/tvGroceries"
+            android:layout_width="117dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:text="Groceries"
+            android:textColor="@drawable/background_purple"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,SpUsage,TextSizeCheck" />
+
+
+        <ImageView
+            android:id="@+id/ivCarrot"
+            android:layout_width="105dp"
+            android:layout_height="168dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck" />
+
+
+        <Button
+            android:id="@+id/btnCarrotLike"
+            android:layout_width="23dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="85dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/heart"
+            android:contentDescription="Carrot Like "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+
+        <Button
+            android:id="@+id/btnCarrot"
+            android:layout_width="50dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/carrot"
+            android:contentDescription="Carrot Button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,DuplicateSpeakableTextCheck,RedundantDescriptionCheck" />
+
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="36dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="155dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:contentDescription="Carrot Button"
+            android:text="$15"
+            android:textColor="@drawable/background"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,SpUsage,TextSizeCheck,TextContrastCheck,RedundantDescriptionCheck" />
+
+
+        <TextView
+            android:id="@+id/tvCarrot"
+            android:layout_width="48dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="175dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:contentDescription="Carrot Button"
+            android:text="Carrot"
+            android:textColor="@drawable/background"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,RedundantDescriptionCheck" />
+
+
+        <TextView
+            android:id="@+id/tvIbsCarrot"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="190dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:contentDescription="Carrot Text Ibs"
+            android:text="1.5Ibs"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,SmallSp,TextSizeCheck,VisualLintOverlap" />
+
+
+        <ImageView
+            android:id="@+id/ivVectorCarrot"
+            android:layout_width="105dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="190dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/vector34"
+            android:contentDescription="Vector Carrot Image"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="ContentDescription,HardcodedText,MissingConstraints,ImageContrastCheck" />
+
+
+        <ImageView
+            android:id="@+id/ivCartCarrot"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="215dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/addcart"
+            android:contentDescription="Image Cart Add"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="ContentDescription,HardcodedText,MissingConstraints,ImageContrastCheck" />
+
+
+        <Button
+            android:id="@+id/btnAddToCart"
+            android:layout_width="56dp"
+            android:layout_height="8dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="218dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/addtocart"
+            android:contentDescription="Button Cart Add"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,RedundantDescriptionCheck,TouchTargetSizeCheck" />
+
+
+        <ImageView
+            android:layout_width="105dp"
+            android:layout_height="168dp"
+            android:id="@+id/ivGrape"
+            android:background="@drawable/background"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="150dp"
+            tools:ignore="ContentDescription,MissingConstraints" />
+
+
+        <Button
+            android:id="@+id/btnGrapLike"
+            android:layout_width="23dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="225dp"
+            android:layout_marginTop="85dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/heart"
+            android:contentDescription="Grape Like "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+
+        <Button
+            android:id="@+id/btnGrape"
+            android:layout_width="50dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/grape"
+            android:contentDescription="Grape Button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,RedundantDescriptionCheck" />
+
+        <TextView
+            android:id="@+id/tvPriceGrape"
+            android:layout_width="36dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="155dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:contentDescription="Price Grape Text"
+            android:text="$25"
+            android:textColor="@drawable/background"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,SpUsage,TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/tvGrape"
+            android:layout_width="48dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="187dp"
+            android:layout_marginTop="175dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:contentDescription="Grape Text"
+            android:text="Grape"
+            android:textColor="@drawable/background"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck" />
+
+
+        <TextView
+            android:id="@+id/tvIbsGrape"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="190dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:contentDescription="Grape Ibs Text"
+            android:text="5.3Ibs"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,SmallSp,TextSizeCheck" />
+
+
+        <ImageView
+            android:id="@+id/ivCartGrape"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="162dp"
+            android:layout_marginTop="215dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/addcart"
+            android:contentDescription="Image Cart Add"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="ContentDescription,HardcodedText,MissingConstraints,ImageContrastCheck" />
+
+
+        <Button
+            android:id="@+id/btnAddGrape"
+            android:layout_width="56dp"
+            android:layout_height="8dp"
+            android:layout_marginStart="187dp"
+            android:layout_marginTop="218dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/addtocart"
+            android:contentDescription="Button Add Grape"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,RedundantDescriptionCheck,TouchTargetSizeCheck" />
+
+
+        <ImageView
+            android:id="@+id/ivTomato"
+            android:layout_width="105dp"
+            android:layout_height="168dp"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck,ImageContrastCheck" />
+
+
+        <Button
+            android:id="@+id/btnTomatoLike"
+            android:layout_width="23dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="345dp"
+            android:layout_marginTop="85dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/heart"
+            android:contentDescription="Tomato Like "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+
+        <Button
+            android:id="@+id/btnTomato"
+            android:layout_width="50dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/tomato"
+            android:contentDescription="Button Tomato"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,RedundantDescriptionCheck" />
+
+
+        <TextView
+            android:id="@+id/tvPriceTomato"
+            android:layout_width="36dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="309dp"
+            android:layout_marginTop="155dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:contentDescription="Text Tomato"
+            android:text="$10"
+            android:textColor="@drawable/background"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,SpUsage,TextSizeCheck,TextContrastCheck" />
+
+
+        <TextView
+            android:id="@+id/tvTomato"
+            android:layout_width="48dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="175dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:contentDescription="Text Tomato"
+            android:text="Carrot"
+            android:textColor="@drawable/background"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck" />
+
+
+        <TextView
+            android:id="@+id/tvIbsTomato"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="190dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:contentDescription="Text Ibs Tomato"
+            android:text="1.5Ibs"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,SmallSp,TextSizeCheck" />
+
+
+        <ImageView
+            android:id="@+id/ivVectorTomato"
+            android:layout_width="105dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="195dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/vector34"
+            android:contentDescription="Vector Image"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="ContentDescription,HardcodedText,MissingConstraints,ImageContrastCheck" />
+
+
+        <ImageView
+            android:id="@+id/ivCartTomato"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="285dp"
+            android:layout_marginTop="215dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/addcart"
+            android:contentDescription="Image Cart Add"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="ContentDescription,HardcodedText,MissingConstraints,ImageContrastCheck" />
+
+
+        <Button
+            android:id="@+id/btnAddTomato"
+            android:layout_width="56dp"
+            android:layout_height="8dp"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="218dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/addtocart"
+            android:contentDescription="Button Tomato Add"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,RedundantDescriptionCheck,TouchTargetSizeCheck" />
+
+
+
+
+        <ImageView
+            android:layout_width="105dp"
+            android:layout_height="168dp"
+            android:id="@+id/ivLentil"
+            android:background="@drawable/background"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="265dp"
+            android:layout_marginStart="30dp"
+            tools:ignore="ContentDescription,MissingConstraints" />
+
+
+        <Button
+            android:id="@+id/btnLentilLike"
+            android:layout_width="23dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="270dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/heart"
+            android:contentDescription="Button Lenti"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,DuplicateSpeakableTextCheck,RedundantDescriptionCheck,TouchTargetSizeCheck" />
+
+
+        <Button
+            android:id="@+id/btnLentil"
+            android:layout_width="50dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="295dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/lentil"
+            android:contentDescription="Button Lenti"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,RedundantDescriptionCheck" />
+
+
+        <TextView
+            android:id="@+id/tvPriceLentil"
+            android:layout_width="36dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="67dp"
+            android:layout_marginTop="345dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:contentDescription="Text Price Lenti"
+            android:text="$10"
+            android:textColor="@drawable/background"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,SpUsage,TextSizeCheck,TextContrastCheck" />
+
+
+        <TextView
+            android:id="@+id/tvLentil"
+            android:layout_width="48dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="67dp"
+            android:layout_marginTop="365dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:contentDescription="Text Lenti"
+            android:text="Lentil"
+            android:textColor="@drawable/background"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck" />
+
+
+        <TextView
+            android:id="@+id/tvIbsLentil"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="380dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:contentDescription="Text Ibs Lenti"
+            android:text="0.6Ibs"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,SmallSp,TextSizeCheck" />
+
+
+        <ImageView
+            android:id="@+id/ivCartLentil"
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/addcart"
+            android:contentDescription="Image Cart Add"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="ContentDescription,HardcodedText,MissingConstraints,ImageContrastCheck" />
+
+
+        <Button
+            android:id="@+id/btnAddLentil"
+            android:layout_width="56dp"
+            android:layout_height="8dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="405dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/addtocart"
+            android:contentDescription="Button Add Lenti"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,RedundantDescriptionCheck,TouchTargetSizeCheck" />
+
+
+        <ImageView
+            android:id="@+id/ivCorn"
+            android:layout_width="105dp"
+            android:layout_height="168dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="265dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck" />
+
+
+        <Button
+            android:id="@+id/btnCornLike"
+            android:layout_width="23dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="225dp"
+            android:layout_marginTop="270dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/heart"
+            android:contentDescription="Button Corn Like "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,RedundantDescriptionCheck,TouchTargetSizeCheck" />
+
+
+        <ImageView
+            android:id="@+id/ivCorns"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/corn"
+            android:contentDescription="Image Corns"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,ImageContrastCheck" />
+
+
+        <Button
+            android:id="@+id/btnCorn"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="302dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/corn2"
+            android:contentDescription="Button Corn"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,RedundantDescriptionCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/tvPriceCorn"
+            android:layout_width="36dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="186dp"
+            android:layout_marginTop="345dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:contentDescription="Text Price Corn"
+            android:text="$20"
+            android:textColor="@drawable/background"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,SpUsage,TextSizeCheck,TextContrastCheck" />
+
+
+        <TextView
+            android:id="@+id/tvCron"
+            android:layout_width="48dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="187dp"
+            android:layout_marginTop="365dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:contentDescription="Text Corn"
+            android:text="Cron"
+            android:textColor="@drawable/background"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck" />
+
+
+        <TextView
+            android:id="@+id/tvIbsCron"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="187dp"
+            android:layout_marginTop="380dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:contentDescription="Text Ibs Cron"
+            android:singleLine="true"
+            android:text="2.6Ibs"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,SmallSp,TextSizeCheck" />
+
+
+        <ImageView
+            android:id="@+id/ivCartCorn"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/addcart"
+            android:contentDescription="Image Cart Add"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="ContentDescription,HardcodedText,MissingConstraints,ImageContrastCheck" />
+
+
+        <Button
+            android:id="@+id/btnAddCron"
+            android:layout_width="56dp"
+            android:layout_height="8dp"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="405dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/addtocart"
+            android:contentDescription="Button Add Cron"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,RedundantDescriptionCheck,TouchTargetSizeCheck" />
+
+
+        <ImageView
+            android:layout_width="105dp"
+            android:layout_height="168dp"
+            android:id="@+id/ivMustard"
+            android:background="@drawable/background"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="265dp"
+            android:layout_marginStart="270dp"
+            tools:ignore="ContentDescription,MissingConstraints" />
+
+
+        <Button
+            android:id="@+id/btnMustardLike"
+            android:layout_width="23dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="345dp"
+            android:layout_marginTop="270dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/heart"
+            android:contentDescription="Button Mustard Like "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,RedundantDescriptionCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/btnMustard"
+            android:layout_width="50dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="295dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/mustard"
+            android:contentDescription="Button Mustard"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,RedundantDescriptionCheck" />
+
+
+        <TextView
+            android:id="@+id/tvPriceMustard"
+            android:layout_width="36dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="305dp"
+            android:layout_marginTop="345dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:contentDescription="Text Price Mustard"
+            android:singleLine="true"
+            android:text="$12"
+            android:textColor="@drawable/background"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,SpUsage,TextSizeCheck,TextContrastCheck" />
+
+
+        <TextView
+            android:id="@+id/tvMustard"
+            android:layout_width="48dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="297dp"
+            android:layout_marginTop="365dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:contentDescription="Text Mustard"
+            android:text="Mustard"
+            android:textColor="@drawable/background"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck,TextContrastCheck" />
+
+
+        <TextView
+            android:id="@+id/tvIbsMustard"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="305dp"
+            android:layout_marginTop="380dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:contentDescription="Text Ibs Mustard"
+            android:text="1.3Ibs"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,SmallSp,TextSizeCheck" />
+
+        <ImageView
+            android:id="@+id/ivCartMustard"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="285dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/addcart"
+            android:contentDescription="Image Cart Add"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="ContentDescription,HardcodedText,MissingConstraints,ImageContrastCheck" />
+
+
+        <Button
+            android:id="@+id/btnAddMustard"
+            android:layout_width="56dp"
+            android:layout_height="8dp"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="405dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/addtocart"
+            android:contentDescription="Button Add Mustard"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,RedundantDescriptionCheck,TouchTargetSizeCheck" />
+
+
+        <ImageView
+            android:layout_width="105dp"
+            android:layout_height="168dp"
+            android:id="@+id/ivPea"
+            android:background="@drawable/background"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="450dp"
+            android:layout_marginStart="30dp"
+            tools:ignore="ContentDescription,MissingConstraints" />
+
+
+        <Button
+            android:id="@+id/btnPeaLike"
+            android:layout_width="23dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="455dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/heart"
+            android:contentDescription="Button Pea Like  "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,RedundantDescriptionCheck,TouchTargetSizeCheck" />
+
+
+        <Button
+            android:id="@+id/btnPea"
+            android:layout_width="50dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="485dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/pea"
+            android:contentDescription="Button Pea"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,RedundantDescriptionCheck" />
+
+
+        <TextView
+            android:id="@+id/tvPricePea"
+            android:layout_width="36dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="67dp"
+            android:layout_marginTop="535dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:contentDescription="Text Price Pea "
+            android:text="$11"
+            android:textColor="@drawable/background"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,SpUsage,TextSizeCheck,TextContrastCheck" />
+
+
+        <TextView
+            android:id="@+id/tvPea"
+            android:layout_width="48dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="555dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:contentDescription="Text Pea"
+            android:text="Pea"
+            android:textColor="@drawable/background"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck" />
+
+
+        <TextView
+            android:id="@+id/tvIbsPea"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="570dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:contentDescription="Text Ibs Pea"
+            android:text="0.6Ibs"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,SmallSp,TextSizeCheck" />
+
+
+        <ImageView
+            android:id="@+id/ivCartPea"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="585dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/addcart"
+            android:contentDescription="Image Cart Add"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="ContentDescription,HardcodedText,MissingConstraints,ImageContrastCheck" />
+
+
+        <Button
+            android:id="@+id/btnAddPea"
+            android:layout_width="56dp"
+            android:layout_height="8dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="590dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/addtocart"
+            android:contentDescription="Button Add Pea"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,RedundantDescriptionCheck,TouchTargetSizeCheck" />
+
+
+        <ImageView
+            android:id="@+id/ivPotato"
+            android:layout_width="105dp"
+            android:layout_height="168dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck" />
+
+
+        <Button
+            android:id="@+id/btnPotatoLike"
+            android:layout_width="23dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="225dp"
+            android:layout_marginTop="455dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/heart"
+            android:contentDescription="Button Potato Like "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,RedundantDescriptionCheck,TouchTargetSizeCheck" />
+
+
+        <Button
+            android:id="@+id/btnPotato"
+            android:layout_width="32dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="490dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/potato"
+            android:contentDescription="Potato Button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,RedundantDescriptionCheck,TouchTargetSizeCheck" />
+
+
+        <TextView
+            android:id="@+id/tvPricePotato"
+            android:layout_width="36dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="186dp"
+            android:layout_marginTop="535dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:contentDescription="Price Potato "
+            android:text="$18"
+            android:textColor="@drawable/background"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,SpUsage,TextSizeCheck,TextContrastCheck" />
+
+
+        <TextView
+            android:id="@+id/tvPotato"
+            android:layout_width="48dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="187dp"
+            android:layout_marginTop="555dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:contentDescription="Button Potato"
+            android:singleLine="true"
+            android:text="Potato"
+            android:textColor="@drawable/background"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck,TextContrastCheck,RedundantDescriptionCheck" />
+
+
+        <TextView
+            android:id="@+id/tvIbsPotato"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="570dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:contentDescription="Text Ibs Potato"
+            android:text="3.1Ibs"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,SmallSp,TextSizeCheck" />
+
+
+        <ImageView
+            android:id="@+id/ivCartPotato"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="585dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/addcart"
+            android:contentDescription="Image Cart Add"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="ContentDescription,HardcodedText,MissingConstraints,ImageContrastCheck" />
+
+
+        <Button
+            android:id="@+id/btnAddPotato"
+            android:layout_width="56dp"
+            android:layout_height="8dp"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="590dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/addtocart"
+            android:contentDescription="Button Add Potato"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,RedundantDescriptionCheck,TouchTargetSizeCheck" />
+
+
+        <ImageView
+            android:id="@+id/ivRadish"
+            android:layout_width="105dp"
+            android:layout_height="168dp"
+            android:layout_marginStart="265dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.212"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck" />
+
+        <Button
+            android:id="@+id/btnRadishLike"
+            android:layout_width="23dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="345dp"
+            android:layout_marginTop="455dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/heart"
+            android:contentDescription=" Button Radish Like  "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,RedundantDescriptionCheck,TouchTargetSizeCheck" />
+
+
+        <Button
+            android:id="@+id/btnRadish"
+            android:layout_width="50dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="490dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/radish"
+            android:contentDescription="Button Radish"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,RedundantDescriptionCheck" />
+
+
+        <TextView
+            android:id="@+id/tvPriceRadish"
+            android:layout_width="36dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="535dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:contentDescription="Text Price Radish"
+            android:text="$10"
+            android:textColor="@drawable/background"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,SpUsage,TextSizeCheck,TextContrastCheck" />
+
+
+        <TextView
+            android:id="@+id/tvRadish"
+            android:layout_width="48dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="305dp"
+            android:layout_marginTop="555dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:contentDescription="Radish Text"
+            android:singleLine="true"
+            android:text="Radish"
+            android:textColor="@drawable/background"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck,TextContrastCheck" />
+
+
+        <TextView
+            android:id="@+id/tvIbsRadish"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="570dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:contentDescription="Text Ibs Radish "
+            android:text="0.6Ibs"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,SmallSp,TextSizeCheck" />
+
+
+        <ImageView
+            android:id="@+id/ivCartRadish"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="284dp"
+            android:layout_marginTop="585dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/addcart"
+            android:contentDescription="Image Cart Add"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="ContentDescription,HardcodedText,MissingConstraints,ImageContrastCheck" />
+
+
+        <Button
+            android:id="@+id/btnAddRadish"
+            android:layout_width="56dp"
+            android:layout_height="8dp"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="589dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/addtocart"
+            android:contentDescription="Button  Cart Add"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,RedundantDescriptionCheck,TouchTargetSizeCheck" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

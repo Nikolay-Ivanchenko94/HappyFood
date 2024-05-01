@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.screen.HomeFragment">
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+
+      <Button
+          android:id="@+id/btnNotification"
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:layout_marginStart="16dp"
+          android:layout_marginTop="30dp"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="3dp"
+          android:background="@drawable/notificationbell"
+          android:contentDescription="Enter How Much Cookies You Want"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+
+
+      <Button
+          android:id="@+id/btnLocation"
+          android:layout_width="17dp"
+          android:layout_height="17dp"
+          android:layout_marginStart="158dp"
+          android:layout_marginTop="33dp"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="3dp"
+          android:background="@drawable/locationpin"
+          android:contentDescription="Enter How Much Cookies You Want"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,TouchTargetSizeCheck" />
+
+
+      <TextView
+          android:id="@+id/tvHome"
+          android:layout_width="73dp"
+          android:layout_height="28dp"
+          android:layout_marginStart="180dp"
+          android:layout_marginTop="24dp"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="3dp"
+          android:text="Home"
+          android:textColor="@color/black"
+          android:textSize="24sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,SpUsage,TextSizeCheck" />
+
+
+      <Button
+          android:id="@+id/btnDown"
+          android:layout_width="20dp"
+          android:layout_height="20dp"
+          android:layout_marginStart="250dp"
+          android:layout_marginTop="30dp"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="3dp"
+          android:background="@drawable/arrowdown"
+          android:contentDescription="Enter How Much Cookies You Want"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,TouchTargetSizeCheck" />
+
+
+      <Button
+          android:id="@+id/btnHeart"
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:layout_marginStart="370dp"
+          android:layout_marginTop="30dp"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="3dp"
+          android:background="@drawable/heart"
+          android:contentDescription="Enter How Much Cookies You Want"
+          android:scaleType="centerInside"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,TouchTargetSizeCheck" />
+      
+      
+      
+      <ImageView
+          android:layout_width="328.26dp"
+          android:layout_height="52dp"
+          android:id="@+id/ivGroup"
+          android:background="@drawable/background"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="3dp"
+          app:layout_constraintVertical_bias="0.0"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          android:layout_marginTop="100dp"
+          android:layout_marginStart="15dp"
+          tools:ignore="ContentDescription,MissingConstraints" />
+
+
+      <Button
+          android:id="@+id/btnSearch"
+          android:layout_width="25dp"
+          android:layout_height="24dp"
+          android:layout_marginStart="30dp"
+          android:layout_marginTop="115dp"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="3dp"
+          android:background="@drawable/search"
+          android:contentDescription="Enter How Much Cookies You Want"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,TouchTargetSizeCheck" />
+
+
+      <EditText
+          android:id="@+id/evName"
+          android:layout_width="188dp"
+          android:layout_height="48dp"
+          android:layout_marginStart="65dp"
+          android:layout_marginTop="102dp"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="3dp"
+          android:background="?android:attr/selectableItemBackground"
+          android:hint="@string/evNameOr"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="Autofill,LabelFor,MissingConstraints,TextFields,TextContrastCheck" />
+
+
+      <Button
+          android:id="@+id/btnVoice"
+          android:layout_width="14dp"
+          android:layout_height="20dp"
+          android:layout_marginStart="295dp"
+          android:layout_marginTop="115dp"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="3dp"
+          android:background="@drawable/voice"
+          android:contentDescription="Enter How Much Cookies You Want"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,TouchTargetSizeCheck" />
+
+
+      <ImageView
+          android:id="@+id/ivRectangle"
+          android:layout_width="54dp"
+          android:layout_height="52dp"
+          android:layout_marginStart="350dp"
+          android:layout_marginTop="100dp"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="3dp"
+          android:background="@drawable/background"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck" />
+
+      <Button
+          android:id="@+id/qrCode"
+          android:layout_width="24dp"
+          android:layout_height="24dp"
+          android:layout_marginStart="365dp"
+          android:layout_marginTop="115dp"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="3dp"
+          android:background="@drawable/qrcode"
+          android:contentDescription="Enter How Much Cookies You Want"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,TouchTargetSizeCheck" />
+      
+
+      <androidx.recyclerview.widget.RecyclerView
+          android:layout_width="396dp"
+          android:layout_height="286dp"
+          android:id="@+id/rvFragment"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="3dp"
+          app:layout_constraintVertical_bias="0.0"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          android:contentDescription="Enter How Much Cookies You Want"
+          android:layout_marginTop="170dp"
+          android:layout_marginStart="0dp"
+          tools:ignore="HardcodedText,MissingConstraints" />
+
+
+      <TextView
+          android:id="@+id/tvCategories"
+          android:layout_width="103dp"
+          android:layout_height="27dp"
+          android:layout_marginStart="20dp"
+          android:layout_marginTop="390dp"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="3dp"
+          android:contentDescription="Enter How Much Cookies You Want"
+          android:text="Categories"
+          android:textColor="@color/black"
+          android:textSize="20sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck" />
+
+
+      <ImageView
+          android:id="@+id/ivGroceries"
+          android:layout_width="72dp"
+          android:layout_height="72dp"
+          android:layout_marginStart="100dp"
+          android:layout_marginTop="430dp"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="3dp"
+          android:background="@drawable/background"
+          android:contentDescription="Enter How Much Cookies You Want"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="ContentDescription,HardcodedText,MissingConstraints,ImageContrastCheck" />
+
+
+      <Button
+          android:id="@+id/btnFood"
+          android:layout_width="40dp"
+          android:layout_height="40dp"
+          android:layout_marginStart="35dp"
+          android:layout_marginTop="445dp"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="3dp"
+          android:background="@drawable/food"
+          android:contentDescription="Enter How Much Cookies You Want"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,TouchTargetSizeCheck" />
+
+
+      <TextView
+          android:id="@+id/tvGroceries"
+          android:layout_width="71dp"
+          android:layout_height="18dp"
+          android:layout_marginStart="110dp"
+          android:layout_marginTop="505dp"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="3dp"
+          android:contentDescription="Enter How Much Cookies You Want"
+          android:text="Groceries"
+          android:textColor="@color/black"
+          android:textSize="15sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,SpUsage,TextSizeCheck" />
+
+
+      <ImageView
+          android:id="@+id/ivFood"
+          android:layout_width="72dp"
+          android:layout_height="72dp"
+          android:layout_marginStart="20dp"
+          android:layout_marginTop="430dp"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="3dp"
+          android:background="@drawable/background"
+          android:contentDescription="Enter How Much Cookies You Want"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="ContentDescription,HardcodedText,MissingConstraints,ImageContrastCheck" />
+
+
+      <Button
+          android:id="@+id/btnGroceries"
+          android:layout_width="40dp"
+          android:layout_height="40dp"
+          android:layout_marginStart="115dp"
+          android:layout_marginTop="445dp"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="3dp"
+          android:background="@drawable/groceries"
+          android:contentDescription="Enter How Much Cookies You Want"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,TouchTargetSizeCheck" />
+
+
+      <TextView
+          android:id="@+id/tvFood"
+          android:layout_width="37dp"
+          android:layout_height="18dp"
+          android:layout_marginStart="40dp"
+          android:layout_marginTop="505dp"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="3dp"
+          android:contentDescription="Enter How Much Cookies You Want"
+          android:text="Food"
+          android:textColor="@color/black"
+          android:textSize="15sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,SpUsage,TextSizeCheck" />
+
+
+      <ImageView
+          android:id="@+id/ivDrinks"
+          android:layout_width="72dp"
+          android:layout_height="72dp"
+          android:layout_marginStart="180dp"
+          android:layout_marginTop="430dp"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="3dp"
+          android:background="@drawable/background"
+          android:contentDescription="Enter How Much Cookies You Want"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="ContentDescription,HardcodedText,MissingConstraints,ImageContrastCheck" />
+
+
+      <Button
+          android:id="@+id/btnDrinks"
+          android:layout_width="40dp"
+          android:layout_height="40dp"
+          android:layout_marginStart="195dp"
+          android:layout_marginTop="445dp"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="3dp"
+          android:background="@drawable/drinks"
+          android:contentDescription="Enter How Much Cookies You Want"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,TouchTargetSizeCheck" />
+
+      <TextView
+          android:id="@+id/tvDrinks"
+          android:layout_width="45dp"
+          android:layout_height="18dp"
+          android:layout_marginStart="200dp"
+          android:layout_marginTop="505dp"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="3dp"
+          android:contentDescription="Enter How Much Cookies You Want"
+          android:text="Drinks"
+          android:textColor="@color/black"
+          android:textSize="15sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,SpUsage,TextSizeCheck" />
+
+
+      <ImageView
+          android:layout_width="72dp"
+          android:layout_height="72dp"
+          android:id="@+id/ivCookies"
+          android:background="@drawable/background"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="3dp"
+          app:layout_constraintVertical_bias="0.0"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          android:contentDescription="Enter How Much Cookies You Want"
+          android:layout_marginTop="430dp"
+          android:layout_marginStart="260dp"
+          tools:ignore="ContentDescription,HardcodedText,MissingConstraints" />
+
+
+      <Button
+          android:id="@+id/btnCookie"
+          android:layout_width="40dp"
+          android:layout_height="40dp"
+          android:layout_marginStart="275dp"
+          android:layout_marginTop="445dp"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="3dp"
+          android:background="@drawable/cookie"
+          android:contentDescription="Enter How Much Cookies You Want"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,TouchTargetSizeCheck" />
+
+      <TextView
+          android:id="@+id/tvCookies"
+          android:layout_width="59dp"
+          android:layout_height="18dp"
+          android:layout_marginStart="275dp"
+          android:layout_marginTop="505dp"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="3dp"
+          android:contentDescription="Enter How Much Cookies You Want"
+          android:text="Cookies"
+          android:textColor="@color/black"
+          android:textSize="15sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,SpUsage,TextSizeCheck" />
+
+      <ImageView
+          android:id="@+id/ivDrink"
+          android:layout_width="72dp"
+          android:layout_height="72dp"
+          android:layout_marginStart="340dp"
+          android:layout_marginTop="430dp"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="3dp"
+          android:background="@drawable/background"
+          android:contentDescription="Enter How Much Cookies You Want"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="ContentDescription,HardcodedText,MissingConstraints,ImageContrastCheck" />
+
+
+      <Button
+          android:id="@+id/btnDrink"
+          android:layout_width="40dp"
+          android:layout_height="40dp"
+          android:layout_marginStart="355dp"
+          android:layout_marginTop="445dp"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="3dp"
+          android:background="@drawable/delivary"
+          android:contentDescription="Enter How Much Cookies You Want"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,TouchTargetSizeCheck" />
+
+      <TextView
+          android:id="@+id/tvDrink"
+          android:layout_width="59dp"
+          android:layout_height="18dp"
+          android:layout_marginStart="355dp"
+          android:layout_marginTop="505dp"
+          android:layout_marginEnd="3dp"
+          android:layout_marginBottom="3dp"
+          android:contentDescription="Enter How Much Cookies You Want"
+          android:text="Drinks"
+          android:textColor="@color/black"
+          android:textSize="15sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,SpUsage,TextSizeCheck" />
+
+      <TextView
+          android:id="@+id/tvNearby"
+          android:layout_width="244dp"
+          android:layout_height="27dp"
+          android:layout_marginStart="30dp"
+          android:layout_marginTop="550dp"
+          android:contentDescription="Enter How Much Cookies You Want"
+          android:text="Nearby moods around you"
+          android:textColor="@color/black"
+          android:textSize="18sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck" />
+
+
+      <TextView
+          android:id="@+id/tvView"
+          android:layout_width="73dp"
+          android:layout_height="24dp"
+          android:layout_marginStart="340dp"
+          android:layout_marginTop="550dp"
+          android:contentDescription="Enter How Much Cookies You Want"
+          android:text="view all"
+          android:textColor="@drawable/background_purple"
+          android:textSize="18sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck,TextContrastCheck" />
+
+
+      <ImageView
+          android:id="@+id/ivBar"
+          android:layout_width="400dp"
+          android:layout_height="44dp"
+          android:layout_marginStart="5dp"
+          android:layout_marginTop="687dp"
+          android:background="@drawable/background"
+          android:contentDescription="Enter How Much Cookies You Want"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,ImageContrastCheck" />
+
+
+      <ImageView
+          android:id="@+id/ivButtonBar"
+          android:layout_width="400dp"
+          android:layout_height="44dp"
+          android:layout_marginStart="5dp"
+          android:layout_marginTop="697dp"
+          android:background="@drawable/background"
+          android:contentDescription="Enter How Much Cookies You Want"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,ImageContrastCheck" />
+
+
+      <ImageView
+          android:id="@+id/ivRectangle2"
+          android:layout_width="85dp"
+          android:layout_height="4dp"
+          android:layout_marginStart="17dp"
+          android:layout_marginTop="687dp"
+          android:background="@drawable/rectangle2"
+          android:contentDescription="Enter How Much Cookies You Want"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,ImageContrastCheck" />
+
+
+      <Button
+          android:id="@+id/btnHome"
+          android:layout_width="32dp"
+          android:layout_height="35dp"
+          android:layout_marginStart="40dp"
+          android:layout_marginTop="695dp"
+          android:background="@drawable/home"
+          android:contentDescription="Enter How Much Cookies You Want"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,TouchTargetSizeCheck" />
+
+
+      <Button
+          android:id="@+id/btnCategory"
+          android:layout_width="35dp"
+          android:layout_height="35dp"
+          android:layout_marginStart="110dp"
+          android:layout_marginTop="695dp"
+          android:background="@drawable/category"
+          android:contentDescription="Enter How Much Cookies You Want"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,TouchTargetSizeCheck" />
+
+
+      <Button
+          android:id="@+id/btnShop"
+          android:layout_width="32dp"
+          android:layout_height="35dp"
+          android:layout_marginStart="180dp"
+          android:layout_marginTop="695dp"
+          android:background="@drawable/shop"
+          android:contentDescription="Enter How Much Cookies You Want"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+
+      <Button
+          android:id="@+id/btnCart"
+          android:layout_width="32dp"
+          android:layout_height="35dp"
+          android:layout_marginStart="250dp"
+          android:layout_marginTop="695dp"
+          android:background="@drawable/cart"
+          android:contentDescription="Enter How Much Cookies You Want"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,TouchTargetSizeCheck" />
+
+
+      <Button
+          android:id="@+id/btnProfile"
+          android:layout_width="32dp"
+          android:layout_height="35dp"
+          android:layout_marginStart="320dp"
+          android:layout_marginTop="695dp"
+          android:background="@drawable/profile"
+          android:contentDescription="Enter How Much Cookies You Want"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.0"
+          tools:ignore="HardcodedText,MissingConstraints,TouchTargetSizeCheck" />
+
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

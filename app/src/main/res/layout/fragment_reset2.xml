@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.logins.ResetFragment2">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/arrowleft"
+            android:contentDescription="Back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints" />
+
+
+
+        <Button
+            android:layout_width="69dp"
+            android:layout_height="48dp"
+            android:id="@+id/btnSkip"
+            android:text="Skip"
+            android:textColor="@color/black"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="340dp"
+            tools:ignore="HardcodedText,MissingConstraints" />
+
+
+
+        <ImageView
+            android:layout_width="290dp"
+            android:layout_height="290dp"
+            android:id="@+id/ivSelf"
+            android:background="@drawable/self"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="140dp"
+            android:layout_marginStart="60dp"
+            tools:ignore="ContentDescription,MissingConstraints" />
+
+
+
+        <TextView
+            android:layout_width="306dp"
+            android:layout_height="54dp"
+            android:id="@+id/tvOperation"
+            android:text="Operation Accomplished Successfully"
+            android:textSize="24sp"
+            android:textColor="@color/purple.xml"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="3dp"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="440dp"
+            android:layout_marginStart="80dp"
+            tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
+
+
+
+        <TextView
+            android:layout_width="396dp"
+            android:layout_height="36dp"
+            android:id="@+id/tvText"
+            android:text="Your password has been reset successfully.Don't forget the password again"
+            android:textSize="16sp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="3dp"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="520dp"
+            android:layout_marginStart="5dp"
+            tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
+        
+        
+        <Button
+            android:layout_width="396dp"
+            android:layout_height="63dp"
+            android:id="@+id/btnGoHome"
+            android:background="@drawable/background_purple"
+            android:text="Go Home Screen"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="3dp"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="600dp"
+            android:layout_marginStart="5dp"
+            tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

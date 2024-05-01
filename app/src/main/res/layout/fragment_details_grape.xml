@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.screen.DetailsGrapeFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="418dp"
+            android:layout_height="375dp"
+            android:id="@+id/ivRectangle"
+            android:background="@drawable/rectangle143"
+            tools:ignore="ContentDescription,MissingConstraints" />
+
+
+        <Button
+            android:id="@+id/btnLeft"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/left"
+            android:contentDescription="Button Left"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,RedundantDescriptionCheck" />
+
+
+        <TextView
+            android:id="@+id/tvDetails"
+            android:layout_width="117dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:text="Details"
+            android:textColor="@drawable/background_purple"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,SpUsage,TextSizeCheck" />
+
+
+
+        <Button
+            android:id="@+id/btnHeart"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="370dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/heart"
+            android:contentDescription="Button Left"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints,RedundantDescriptionCheck" />
+
+
+
+        
+        <ImageView
+            android:layout_width="168dp"
+            android:layout_height="183dp"
+            android:id="@+id/ivRedGrape"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="83dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/group843"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="ContentDescription,MissingConstraints" />
+
+        
+        <TextView
+            android:layout_width="107dp"
+            android:layout_height="30dp"
+            android:id="@+id/tvRedGrape"
+            android:text="Red Grape"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="390dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints" />
+
+        
+        <TextView
+            android:layout_width="61dp"
+            android:layout_height="36dp"
+            android:id="@+id/tvPrice"
+            android:text="$25"
+            android:textSize="32sp"
+            android:textColor="@drawable/background_purple"
+            android:layout_marginStart="335dp"
+            android:layout_marginTop="385dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints" />
+
+        
+        
+        <TextView
+            android:layout_width="37dp"
+            android:layout_height="18dp"
+            android:id="@+id/tvIbs"
+            android:text="5.3 Ibs"
+            android:textSize="12sp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="425dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints" />
+        
+        <TextView
+            android:layout_width="21dp"
+            android:layout_height="18dp"
+            android:id="@+id/tvGrade"
+            android:text="4.5"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="445dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints" />
+
+
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rattingBar"
+            android:numStars="5"
+            android:progress="4"
+            android:progressTint="#FFC106"
+            android:stepSize="1"
+            android:rating="5"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="434dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="MissingConstraints" />
+
+
+<TextView
+    android:layout_width="86dp"
+    android:layout_height="18dp"
+    android:id="@+id/tvReview"
+    android:text="(85 Review)"
+    android:textColor="@color/black"
+    android:textSize="11dp"
+    android:layout_marginStart="225dp"
+    android:layout_marginTop="445dp"
+    android:layout_marginEnd="3dp"
+    android:layout_marginBottom="3dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.0"
+    tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
+
+        
+        <TextView
+            android:layout_width="107dp"
+            android:layout_height="27dp"
+            android:id="@+id/tvDescription"
+            android:text="Description"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="480dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText,MissingConstraints" />
+
+        
+        <TextView
+            android:layout_width="386dp"
+            android:layout_height="120dp"
+            android:id="@+id/tvText"
+            android:textSize="11sp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="510dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            android:text="Grapes are succulent fruits that belong to the Vitaceae family and are known for their luscious taste and versatility. These small, round, or oval berries come in various colors, including green, red, purple, and even black. Grapes are packed with nutrients, making them a healthy choice for snacking or as an ingredient in various culinary creations. They are rich in vitamins C and K and antioxidants that help protect the body against free radicals. Grapes also contain natural sugars, fiber, and minerals like potassium. Apart from being enjoyed fresh, grapes are often used in winemaking, where they are crushed and fermented to produce a wide range of wines. Read more"
+            tools:ignore="HardcodedText,MissingConstraints" />
+
+
+        <ImageView
+            android:id="@+id/ivQuantity"
+            android:layout_width="396dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="635dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/background_white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.833"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+                android:layout_width="86dp"
+                android:layout_height="26dp"
+                android:id="@+id/tvQuantity"
+                android:text="QUANTITY"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="645dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="3dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="HardcodedText,MissingConstraints" />
+
+
+
+
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="16dp"
+            android:id="@+id/btnMinus"
+            android:text="-"
+            android:textSize="17sp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="645dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            android:textColor="@drawable/background_purple"
+            tools:ignore="HardcodedText,MissingConstraints" />
+
+
+        <TextView
+            android:id="@+id/tvNumber"
+            android:layout_width="15dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="645dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:text="1"
+            android:textColor="@drawable/background_purple"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.854"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/btnPlus"
+            android:layout_width="10dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="645dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:text="+"
+            android:textColor="@drawable/background_purple"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.881"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <Button
+            android:id="@+id/btnAddToCart"
+            android:layout_width="386dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="695dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/background_purple"
+            android:text="Add to Cart"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.409"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="HardcodedText" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
